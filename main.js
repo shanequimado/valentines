@@ -12,7 +12,7 @@ function getRandomNumber(min, max) {
   return randomNumber;
 }
 
-btnNo.addEventListener("touch", (event) => {
+btnNo.addEventListener("click", (event) => {
   const containerHeight = container.getBoundingClientRect().height;
   const containerWidth = container.getBoundingClientRect().width;
   const btnHeight = btnNo.getBoundingClientRect().height;
